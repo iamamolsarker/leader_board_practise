@@ -106,3 +106,37 @@
 .course-img{
     width: 100%;
 }
+.course-title{
+    color: #1E1E1E;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.course-mentor{
+    color: #ED6B4F;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.meta-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-star p{
+    color: #A2A2A2;
+    font-size: 14px;
+}
+.review-star i{
+    color: #FFC014;
+    font-size: 14px;
+}
+.course-duration p{
+    color: #FF4A60;
+    font-size: 14px;
+    font-weight: 500;
+}
+.course-duration >div{
+    background-color: #FFE4E8;
+    padding: 3px 8px;
+    border-radius: 50px;
+}
