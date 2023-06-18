@@ -140,3 +140,43 @@
     padding: 3px 8px;
     border-radius: 50px;
 }
+
+/* Mobile and Tablet responsiveness */
+
+/* table version */
+
+@media  (min-width:768px) and (max-width:1024px) {
+    .container{
+        width: 90%;
+    }
+    .players-container, .course-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile version */
+@media  (min-width:320px) and (max-width:767px) {
+    .container{
+        width: 90%;
+    }
+    .players-container{
+        grid-template-columns: 1fr;
+    }
+    .blog-container, .course-container{
+        grid-template-columns: 1fr;
+    }
+    .blogs{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-img{
+        margin: 0 0 20px 0;
+    }
+    .blog-img img{
+        width: 100%;
+    }
+    
+}
